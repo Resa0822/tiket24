@@ -1,0 +1,71 @@
+body{margin: 0; font-family: Arial, Helvetica, Tahoma, Verdana, Sans-Serif; color: #333333; background: #ffffff;}
+
+#container																					{width:100%; margin:0 auto;}
+	#containerheader																		{width:100%; padding: 7px 0 0 0;}
+
+	#containerbody																			{width:100%;}
+
+		/* containeravaiblepackage */
+		#containeravailablepackage															{/*float:left; */width:99.5%;}
+			#containeravailablepackage .header												{color:#0B37A2; font:12px Verdana, Arial, Helvetica, sans-serif;
+																								padding: 0 0 10px 0;}
+		
+			 #containeravailablepackage .item												{width:100%; /*float:left;*/ margin: 0 0 0 0;
+																								border-left:solid 1px #B1B1B1; border-right:solid 1px #B1B1B1;
+																								border-bottom:solid 1px #B1B1B1; border-top:solid 1px #B1B1B1; background-color:#F6F6F6; padding: 0 0 10px 0;}
+			#containeravailablepackage .item .hr											{width:100%; text-align:center; color:#B1C9D5; }
+			#containeravailablepackage .item .subitm										{width:98%; margin: 0 10px 0 10px;
+																								background-color:#F6F6F6; color:#000;
+																								font:11px Verdana, Arial, Helvetica, sans-serif;}
+			#containeravailablepackage .item .subitm .tblline								{width:100%; border-top:solid 1px #5D5E96; padding: 0px 0px 5px 0px;
+																							border-left:solid 1px #B1C9D5; border-right:solid 1px #B1C9D5;
+																								border-bottom:solid 1px #B1C9D5; background-color:#F7F7F7;}
+				#containeravailablepackage .item .subitm .tblline tr							{background-image:url('../../crs.style/img/background/promolist/item.gif');
+																								background-repeat:repeat-x;}
+			#containeravailablepackage .item .subitm .tblline .nbr							{ color:#000000; font-weight:bold;
+																								background-image:url('../../crs.style/img/background/paging/orangenumber20.gif'); 
+																								background-repeat:no-repeat; background-position:left; 
+																								text-indent: 10px; 
+																								vertical-align:middle;}
+			#containeravailablepackage .item .subitm .tblline .hdr							{ font-size:14px; padding: 0px 5px 5px 10px;}
+			#containeravailablepackage .item .subitm .tblline .itmpic						{width:24%; vertical-align:top; padding: 0px 5px 5px 10px;}
+			#containeravailablepackage .item .subitm .tblline .itmpic .imgpkg				{Width:200px; Height:85px;
+																								-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+																								-moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+																								box-shadow: 0px 1px 5px 0px #4a4a4a;}
+			#containeravailablepackage .item .subitm .tblline .itmtxt						{width:51%; vertical-align:top;}
+			#containeravailablepackage .item .subitm .tblline .itmprc						{width:25%; vertical-align:top;}
+			#containeravailablepackage .item .subitm .tblline a:link						{text-decoration:none; color:#0B37A2; font-weight:bold;}
+			#containeravailablepackage .item .subitm .tblline a:visited						{text-decoration:none; color:#0B37A2; font-weight:bold;}
+			#containeravailablepackage .item .subitm .tblline a:hover						{text-decoration:none; color:#0B37A2; font-weight:bold;}
+			#containeravailablepackage .item .subitm .tblline .inclusive					{width:100%;border: solid 1px #B1C9D5; 
+																								-webkit-box-shadow: 0px 1px 5px 0px #D0D0D0;
+																								-moz-box-shadow: 0px 1px 5px 0px #D0D0D0;
+																								box-shadow: 0px 1px 5px 0px #D0D0D0; color:#000;}
+			#containeravailablepackage .item .subitm .tblline .inclusive td					{ vertical-align:top; padding: 2px 0 2px 0; font-size:12px;}
+			#containeravailablepackage .item .subitm .tblline .inclusive .label				{width:30%; background-color:#F9FAFB; padding: 5px 5px 5px 5px;}
+			#containeravailablepackage .item .subitm .tblline .inclusive .content			{width:70%; background-color:#F9FAFB; padding: 5px 5px 5px 5px;}
+			#containeravailablepackage .item .subitm .tblline .inclusive .content ul		{margin: 0 0 0 0; padding-left:15px; list-style-type: square;}
+			#containeravailablepackage .item .subitm .tblline .inclusive .content ul li		{margin: 0 0 0 0; padding-left:0px;}
+			#containeravailablepackage .item .subitm .tblline .inclusive .incvdiv			{ width:100%; }
+			#containeravailablepackage .item .subitm .tblline .inclusive .morediv			{width:22px; border: solid 1px #B1C9D5; background-color: #D7D3CB; 
+																								margin: 10px 0px 0px 0px; cursor: pointer; padding: 2px 3px 2px 3px; text-align:left;}
+			#containeravailablepackage .item .subitm .tblline .inclusive .morediv:link		{background-color: #D7D3CB;}
+			#containeravailablepackage .item .subitm .tblline .inclusive .morediv:visited	{background-color: #D7D3CB;}
+			#containeravailablepackage .item .subitm .tblline .inclusive .morediv:hover		{background-color: #FF7F00; color:#FFFFFF;}
+			#containeravailablepackage .item .subitm .tblline .prcdtl 						{width:100%; text-align:center;}
+			#containeravailablepackage .item .subitm .tblline .prcdtl .red					{color:#FF0000;}
+			#containeravailablepackage .item .subitm .tblline .prcdtl .groupprice			{vertical-align:bottom; padding: 0 7px 0 7px;}
+			#containeravailablepackage .item .subitm .tblline .prcdtl .lblairline			{font:14px Arial, Verdana, Helvetica, sans-serif; font-weight:bold; color:#000;}
+			#containeravailablepackage .item .subitm .tblline .prcdtl .lblprice				{font:14px Arial, Verdana, Helvetica, sans-serif; font-weight:bold;}
+			#containeravailablepackage .item .subitm .tblline .prcdtl .price				{font:27px Arial, Verdana, Helvetica, sans-serif; font-weight:bold;}
+			 
+
+.goSubmit																					{background-color:#00adef; border:1px solid #0a4d81; color:#FFFFFF;
+/* 																								background-image:url('../../crs.style/img/background/button/greeenbutton20.gif');
+ */																								cursor: pointer; -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+																								-moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+																								box-shadow: 0px 1px 5px 0px #4a4a4a;}
+.mytable																					{width: 100%; font-family: Verdana, Arial, Helvetica, sans-serif; border:solid 1px #0a4d81;}
+.mytable tr.special td																		{background-color: #00adef; padding-right: 0px 0px 0px 0px; }
+.label																					{color: #020100; }
