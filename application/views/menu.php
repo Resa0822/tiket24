@@ -1,3 +1,4 @@
+<!-- bla -->
 <script>
 $(document).ready(function(){ 
 $("#Currencies_id").change(function(e) {
