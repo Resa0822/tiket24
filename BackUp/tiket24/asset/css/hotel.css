@@ -1,0 +1,529 @@
+/**
+* general.css 1000 2010-07-08
+* Copyright (C) 2010 www.asiatravel.com. All rights reserved.
+*/
+
+/**
+ * www.asiatravel.com hotel main css file
+ *
+ * @author	: Jojo Fresnido <jojo@asiatravel.com>
+ * @version    	: 1.0
+ */
+
+
+/* -- Hotel styles ------------------------------ */
+#hotel-header  
+{/*
+	width:795px;
+	float:right;
+	margin-bottom:5px;
+	margin-top:-18px;
+*/
+margin-top:18px;
+}
+#hotel-header-content
+{
+}
+ 
+#hotel-header-facade
+{	
+	width:190px;
+	float:left;
+}
+
+#hotel-header-info
+{ 
+	border:1px solid #d3d3d3;
+	width:617px;
+	float:left;
+	font-family:arial;
+	font-size:12px;
+	padding:5px;
+	/*height:130px;*/
+	min-height:130px;
+	
+}
+
+#hotel-header-info-new
+{ 
+	border:1px solid #d3d3d3;
+	width:617px;
+	float:left;
+	font-family:arial;
+	font-size:12px;
+	padding:5px;
+	/*height:130px;*/
+	min-height:157px;
+	
+}
+
+
+.hotel-category
+{
+	color:red;
+}
+
+.hotel-rate
+{
+	/*Maroon*/
+	color: #990000;
+}
+
+.hotel-name
+{
+	/*Blue*/
+	color: #16387C;		
+}
+
+.hotel-roomtype
+{
+	/*Blue*/
+	color: #16387C;			
+}
+
+.hotel-remark
+{
+	color:red;
+}
+
+.hotel-promo
+{
+	color:red;
+	font-weight:bold;
+}
+
+#hotel-header-image  
+{
+	width:125px;
+	float:left;	
+} 
+
+#hotel-header-image img 
+{
+	width: 120px;
+	height: 130px;
+} 
+
+#hotel-header-map 
+{
+	text-align:center;
+	margin-top:8px;
+	border:1px solid lightgray;
+	width: 120px;	
+}
+
+#hotel-header-map img
+{
+	width: 11px;
+	height: 11px;
+}
+
+#hotel-header-name
+{
+	width:490px;
+	float:right;
+}
+
+#hotel-header-contact
+{
+	float:right;
+}
+
+#hotel-contact
+{	
+	width:290px;
+	margin-bottom: -10px;
+	float:left;
+}
+
+#hotel-book
+{
+	border-bottom:0px solid #16387c;
+	width:190px;
+	float:right;
+	padding:3px;
+}
+
+#hotel-ratings
+{
+	border:1px solid #d3d3d3;
+	width:160px;
+	float:right;
+	font-family:arial;
+	height:142px;
+	/*margin-top:-19px;*/	
+}
+
+#hotel-ratings-new
+{
+	border:1px solid #d3d3d3;
+	width:160px;
+	float:right;
+	font-family:arial;
+	height:167px;
+	*margin-top:-19px;	
+}
+
+#hotel-ratings-title
+{
+	font-family:Georgia; 
+	font-size: 12px; 
+	font-weight:bold;
+	text-align:center;
+	margin-top:0px;
+	color:red;
+	height:20px;
+}
+
+#hotel-ratings-title-new
+{
+	font-family:Georgia; 
+	font-size: 12px; 
+	font-weight:bold;
+	text-align:center;
+	margin-top:0px;
+	color:red;
+	height:30px;
+}
+
+.hotel-code
+{
+	display:none;
+}
+
+.hotel-ratings-star
+{
+	text-align:center;
+	height:20px;
+	margin-left:36px;
+}
+
+.hotel-ratings-star-new
+{
+	text-align:center;
+	height:30px;
+	margin-left:36px;
+}
+
+.hotel-ratings-rate
+{
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+	height:20px;
+}
+
+.hotel-ratings-rate-new
+{
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+	height:30px;
+}
+
+.hotel-ratings-numreviews
+{
+	font-size:12px;
+	text-align:center;
+	height:30px;
+}
+
+.hotel-ratings-viewall
+{
+	font-size:11px;
+	text-align:center;
+	height:39px;
+} 
+
+#hotel-content
+{/* 
+	clear:left;
+*/}
+
+#hotel-menu
+{
+	width:190px;
+	float:left;
+}
+
+#hotel-menu-main
+{	
+	float:left;
+}
+
+#hotel-map-small
+{
+	margin-top:10px;
+	float:left;
+	border:1px solid lightgray;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	background-color:lightgray;
+	color:#333;
+}
+
+#hotel-content-info
+{
+	width:783px;
+/* 	float:left; */
+	border:1px solid #d3d3d3;
+	padding:5px;
+	margin-top:5px;
+}
+
+#hotel-content-description
+{
+	margin-top:10px;
+	font-size:12px;
+	line-height: 18px;	
+	text-align:justify;
+}
+
+#hotel-content-value
+{
+	margin-top:0px;	
+	font-size:12px;
+	line-height: 18px;	
+} 
+
+#hotel-content-value .overview_description_row
+{
+	margin-top:5px;
+}
+
+.hotel-features
+{
+	width:180px;
+	float:left;		
+}
+
+.hotel-features-imagethumb
+{
+	margin-right:3px;
+	width:54px;
+	height:49px;
+}
+
+.hotel-features-line
+{	
+	border-top:1px dotted #d3d3d3;
+	float:left;
+	width:785px;
+	margin-top:20px;
+	margin-bottom:20px;	
+}	
+
+#hotel-facilities-title, #hotel-services-title
+{
+	float:left;
+	font-weight:bold;
+	text-decoration: underline;
+	height:30px;
+	margin-top:5px;
+	width:780px;
+}
+
+#hotel-amenities-title
+{
+	float:left;
+	font-weight:bold;
+	text-decoration: underline;
+	height:30px;
+	margin-top:5px;
+	width:540px;
+}
+
+.hotel-facilities-value, .hotel-services-value
+{
+	float:left;
+	width:783px;
+	
+}
+
+.hotel-amenities
+{
+	width:170px;
+	float:left;		
+	
+}
+
+.hotel-amenities-value
+{
+	float:left;
+	width:783px;			
+}
+
+.hotel-amenities-image
+{
+	float:left;
+	width:230px;		
+}
+
+.hotel-amenities-description
+{
+	float:right;
+	width:540px;		
+}
+
+#hotel-gallery
+{
+	width:780px;
+	float:left;
+}
+
+.hotel-gallery-frame
+{
+	border:1px solid #d3d3d3;
+	width:230px;
+	float:left;
+	text-align:center;
+	margin:15px 10px;
+	height:180px;	
+}
+
+.hotel-gallery-image
+{	
+	margin-top:5px;
+}
+
+.hotel-gallery-title
+{
+	margin-top:10px;
+}
+
+.hotel-gallery-description
+{
+	clear:left;	
+	width:780px;
+}
+
+.review_post_row{border:0px solid green;width:735px;float:left;}
+.review_reviewer_row{width:780px;}
+.review_rating {border:1px solid white;width:400px;float:left;font-size:16px;font-weight:bold;color: #003463;text-indent:100px;}
+.review_rating_0{background:url('/common/media/images/global/star_rating_0.gif') no-repeat;}
+.review_rating_1{background:url('/common/media/images/global/star_rating_1.gif') no-repeat;}
+.review_rating_2{background:url('/common/media/images/global/star_rating_2.gif') no-repeat;}
+.review_rating_3{background:url('/common/media/images/global/star_rating_3.gif') no-repeat;}
+.review_rating_4{background:url('/common/media/images/global/star_rating_4.gif') no-repeat;}
+.review_rating_5{background:url('/common/media/images/global/star_rating_5.gif') no-repeat;}
+.review_reviewer {border:0px solid red;width:365px;float:left;text-align:right;font-size:11px;font-style:italic;color: #003463;}
+.review_comments{border:0px solid lightgray;width:780px;float:left;font-size:11px;padding:10px 0px 10px 0px;} /*T R B L*/
+.review_rating_details_row{width:780px;border:0px solid black;float:left;padding-bottom:10px;background:lightyellow;}
+.review_rating_row{float:left;width:400px;border:0px solid black;}
+.review_rating_details_title{border:0px solid lightgray;width:400px;float:left;font-weight:bold;color:red;margin-bottom:5px;}
+.review_rating_item {border:0px solid lightgray;width:100px;float:left;border-bottom:1px solid lightgray;}
+.review_rating_value {border:0px solid lightgray;width:70px;float:left;border-bottom:1px solid lightgray;}
+.review_recommendation_row{float:left;width:365px;border:0px solid black;}
+.review_recommendation_title{border:0px solid lightgray;width:365px;float:left;font-weight:bold;color:red;margin-bottom:5px;}
+.review_recommendation{border:0px solid lightgray;width:350px;}
+
+#hotel-video
+{
+	width:780px;
+}
+
+#hotels_featured
+{
+	background-color: #FFFFFF; 
+	border:1px solid #ccc;
+	padding:5px;	
+	*height:100%;	
+}
+
+#hotels_featured h3
+{
+	text-align:center;
+	text-transform:uppercase;	
+	font-size: 18px;
+}
+
+#hotels_recommended 
+{
+/*
+	float:left; 
+	width:745px; 
+	margin: 0px 5px 30px 0px; 
+	color: #333; 
+	display: inline; 		
+*/	
+}
+
+.hotels_recommended 
+{
+	border:1px solid #f2f2f2; 
+	float:left; 
+	width:137px; 	
+	margin-right:6px;
+	margin-top:5px; 
+	height:240px;/*230px;*/	
+	text-align:center;	
+}
+
+#hotels_recommended  li{
+	border:1px solid #f2f2f2; 
+	float:left; 
+	width:137px; 
+	margin-right:6px;
+	margin-top:5px; 
+	height:240px;/*240px;*/
+	text-align:center;
+
+}
+
+#hotels_recommended li a {
+	display: block;
+	text-decoration: none;
+}
+
+#hotels_recommended  li a:hover {
+	background: #ffffcc;
+}
+
+#hotels_recommended  li h4{
+	height:30px;
+	*height:40px;
+}
+
+#hotels_recommended  li h5{
+	height:15px;
+}
+
+#hotels_recommended  li .rate{
+	height:20px;
+}
+
+#hotels_recommended  li .rate .hotel-roomtype{
+	display:none;
+}
+
+#hotel_listing_content
+{
+	margin-top:10px;
+}
+
+#hotel_listings{
+	border:1px solid #d3d3d3;
+	text-align:center;
+	padding:10px;
+}
+
+#hotel_listings_location{
+	border:0px solid red;
+	overflow: auto;
+}
+
+#hotel_listing_location_item{
+	border:1px solid #d3d3d3;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#hotel_listing_location_item a{
+	text-decoration:underline; 
+	color:#16387C;
+}
+
+
+
+
