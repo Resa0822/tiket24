@@ -1,0 +1,481 @@
+body{
+font-size:12px;
+
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #c3d8ed 72%, #c3d8ed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(72%,#c3d8ed), color-stop(100%,#c3d8ed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#c3d8ed 72%,#c3d8ed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#c3d8ed 72%,#c3d8ed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#c3d8ed 72%,#c3d8ed 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#c3d8ed 72%,#c3d8ed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c3d8ed',GradientType=0 ); /* IE6-9 */
+}
+table.tableFormSignup td { padding:5px;}
+.boxshadow{
+-webkit-box-shadow: 0px 0px 5px 2px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 0px 5px 2px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 0px 5px 2px rgba(50, 50, 50, 0.5);
+}
+/* ======right box content panels styles section start================= */	
+.costumpanel {
+border:none; border-radius: 10px;
+}
+.costum_panel_head {
+border-top-left-radius: 10px;border-top-right-radius: 10px; font-size:12px;
+}
+.costum_panel_body {
+border:none;
+}	
+/* ======right box content panels styles section start================= */
+/* =========bootstrap custom button styles start========= */
+.btn-orange {
+  color: #fff;
+  background-color: #fc6605;
+  border-top: 1px #fc6605 solid;
+  border-left: 1px #fc6605 solid;
+  border-bottom: 2px #666666 solid;
+  border-right: 2px #666666 solid;
+}
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active {
+  color: #fff;
+  background-color: #FF9900;
+  border-top: 1px #fc6605 solid;
+  border-left: 1px #fc6605 solid;
+  border-bottom: 2px #666666 solid;
+  border-right: 2px #666666 solid;
+}
+
+.btn-darkgrey {
+  color: #fff;
+  background-color: #666666;
+  border-color: #999999;
+}
+.btn-darkgrey:hover,
+.btn-darkgrey:focus,
+.btn-darkgrey:active {
+  color: #fff;
+  background-color: #999999;
+  border-color: #333333;
+}
+.btn-blue {
+  color: #fff;
+  background-color: #1891bc;
+  border-color: #036c91;
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+  color: #fff;
+  background-color: #05a2da;
+  border-color: #0186b5;
+}
+/* =========bootstrap custom button styles end========= */
+.nav-tabs-custom {
+  border-bottom: 1px solid #015a78;
+  background-color: #1792bc; 
+}
+.nav-tabs-custom > li {
+  float: left;
+  margin-bottom: -1px;
+  
+}
+.nav-tabs-custom > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border-left: 1px #015a78 solid;
+  border-right: 1px #015a78 solid;
+  border-top: 1px #015a78 solid;
+  border-radius: 5px 5px 0 0;
+  background-color: #047fa9;
+  
+  color:#FFFFFF;
+}
+.nav-tabs-custom > li > a:hover {
+  border-color: #015a78 #015a78 #60d9ec #015a78;
+  background-color: #60d9ec; 
+  color: #1792bc;
+   font-weight:bold;
+}
+.nav-tabs-custom > li.active > a,
+.nav-tabs-custom > li.active > a:hover,
+.nav-tabs-custom > li.active > a:focus {
+  color: #1792bc;
+  cursor: default;
+  background-color: #60d9ec;
+  border: 1px solid #015a78;
+  border-bottom-color: transparent;
+  font-weight:bold;
+}
+/* pulldown menu top arrow start */
+.dropdown-menu:before {
+  position: absolute;
+  
+  top: -10px;
+  right: 14px;
+  display: inline-block;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ccc;
+  border-left: 10px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.dropdown-menu:after {
+  position: absolute;
+   
+  top: -9px;
+  right: 16px;
+  display: inline-block;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #ffffff;
+  border-left: 9px solid transparent;
+  content: '';
+}
+
+@media screen and (max-width: 320px){
+
+#headLogo{
+width:150px;
+height:32px;
+background:url(../images/logos/starholidaylogo_377x80.jpg) no-repeat;
+background-size: 100%;
+}
+.nav-pills-custom > li {
+  float: left;
+  font-weight:bold;
+  font-size: 8px;
+}
+.nav-pills-custom > li > a {
+  border-radius: 4px;
+  background-color: #60d9ec;
+  padding: 3px 5px 3px 5px;
+}
+.nav-pills-custom > li > a:hover {
+  border-radius: 4px;
+  background-color: #1792bc;
+  color:#ffffff;
+}
+.nav-pills-custom > li + li {
+  margin-left: 2px;
+}
+.nav-pills-custom > li.active > a,
+.nav-pills-custom > li.active > a:hover,
+.nav-pills-custom > li.active > a:focus {
+  color: #fff;
+  background-color: #1792bc;
+}
+.dropdown-toggle-custom:active, .open .dropdown-toggle-custom {background:#1792bc !important; color:#fff !important;}
+#dropdownContentLogin{padding: 10px; margin-top:6px; font-size:12px;}
+#rightContainer{padding: 0px;}
+.footer {
+  padding:0px;
+  color:#c4fbff;
+  background-color: #1592be;
+  border-top: 1px solid #e5e5e5;
+  font-size:4px;
+}
+#footerImageLogo{
+display:inline-block; 
+vertical-align:top; 
+width:100px; 
+height:27px; 
+background:url(../images/logos/logofooter.png) no-repeat;
+background-size: 100%;
+}
+#footCol1{vertical-align:top; padding:2px 0px 0px 10px}
+#footCol2{vertical-align:top; padding:2px 0px 0px 10px}
+#footCol3{vertical-align:top; padding:2px 0px 0px 10px}
+#footCol4{vertical-align:top; padding:2px 0px 0px 10px}
+
+}
+@media screen and (min-width: 360px){
+
+#headLogo{
+width:150px;
+height:32px;
+background:url(../images/logos/starholidaylogo_377x80.jpg) no-repeat;
+background-size: 100%;
+}
+.nav-pills-custom > li {
+  float: left;
+  font-weight:bold;
+  font-size:10px;
+}
+.nav-pills-custom > li > a {
+  border-radius: 4px;
+  background-color: #60d9ec;
+  padding: 3px 5px 3px 5px;
+}
+.nav-pills-custom > li > a:hover {
+  border-radius: 4px;
+  background-color: #1792bc;
+  color:#ffffff;
+}
+.nav-pills-custom > li + li {
+  margin-left: 2px;
+}
+.nav-pills-custom > li.active > a,
+.nav-pills-custom > li.active > a:hover,
+.nav-pills-custom > li.active > a:focus {
+  color: #fff;
+  background-color: #1792bc;
+}
+.dropdown-toggle-custom:active, .open .dropdown-toggle-custom {background:#1792bc !important; color:#fff !important;}
+#dropdownContentLogin{padding: 10px; margin-top:6px; font-size:12px;}
+#rightContainer{padding: 0px;}
+.footer {
+  padding:0px;
+  color:#c4fbff;
+  background-color: #1592be;
+  border-top: 1px solid #e5e5e5;
+  font-size:4px;
+}
+#footerImageLogo{
+display:inline-block; 
+vertical-align:top; 
+width:100px; 
+height:27px; 
+background:url(../images/logos/logofooter.png) no-repeat;
+background-size: 100%;
+}
+#footCol1{vertical-align:top; padding:2px 0px 0px 10px}
+#footCol2{vertical-align:top; padding:2px 0px 0px 10px}
+#footCol3{vertical-align:top; padding:2px 0px 0px 10px}
+#footCol4{vertical-align:top; padding:2px 0px 0px 10px}
+
+}
+@media screen and (min-width: 480px){
+
+#headLogo{
+width:200px;
+height:42px;
+background:url(../images/logos/starholidaylogo_377x80.jpg) no-repeat;
+background-size: 100%;
+}
+.nav-pills-custom > li {
+  float: left;
+  font-weight:bold;
+  font-size:12px;
+}
+.nav-pills-custom > li > a {
+  border-radius: 4px;
+  background-color: #60d9ec;
+  padding: 5px 10px 5px 10px;
+}
+.nav-pills-custom > li > a:hover {
+  border-radius: 4px;
+  background-color: #1792bc;
+  color:#ffffff;
+}
+.nav-pills-custom > li + li {
+  margin-left: 2px;
+}
+.nav-pills-custom > li.active > a,
+.nav-pills-custom > li.active > a:hover,
+.nav-pills-custom > li.active > a:focus {
+  color: #fff;
+  background-color: #1792bc;
+}
+.dropdown-toggle-custom:active, .open .dropdown-toggle-custom {background:#1792bc !important; color:#fff !important;}
+#dropdownContentLogin{padding: 10px; margin-top:6px; font-size:12px;}
+#rightContainer{padding: 0px;}
+.footer {
+  padding:0px;
+  color:#c4fbff;
+  background-color: #1592be;
+  border-top: 1px solid #e5e5e5;
+  font-size:6px;
+}
+#footerImageLogo{
+display:inline-block; 
+vertical-align:top; 
+width:130px; 
+height:36px; 
+background:url(../images/logos/logofooter.png) no-repeat;
+background-size: 100%;
+}
+#footCol1{vertical-align:top; padding:2px 0px 0px 10px}
+#footCol2{vertical-align:top; padding:2px 0px 0px 10px}
+#footCol3{vertical-align:top; padding:2px 0px 0px 10px}
+#footCol4{vertical-align:top; padding:2px 0px 0px 10px}
+}
+@media screen and (min-width: 600px){
+
+#headLogo{
+width:250px;
+height:53px;
+background:url(../images/logos/starholidaylogo_377x80.jpg) no-repeat;
+background-size: 100%;
+}
+.nav-pills-custom > li {
+  float: left;
+  font-weight:bold;
+  font-size:12px;
+}
+.nav-pills-custom > li > a {
+  border-radius: 4px;
+  background-color: #60d9ec;
+  padding: 5px 10px 5px 10px;
+}
+.nav-pills-custom > li > a:hover {
+  border-radius: 4px;
+  background-color: #1792bc;
+  color:#ffffff;
+}
+.nav-pills-custom > li + li {
+  margin-left: 2px;
+}
+.nav-pills-custom > li.active > a,
+.nav-pills-custom > li.active > a:hover,
+.nav-pills-custom > li.active > a:focus {
+  color: #fff;
+  background-color: #1792bc;
+}
+.dropdown-toggle-custom:active, .open .dropdown-toggle-custom {background:#1792bc !important; color:#fff !important;}
+#dropdownContentLogin{padding: 10px; margin-top:6px; font-size:12px;}
+#rightContainer{padding: 0px;}
+.footer {
+  padding:0px;
+  color:#c4fbff;
+  background-color: #1592be;
+  border-top: 1px solid #e5e5e5;
+  font-size:8px;
+}
+#footerImageLogo{
+display:inline-block; 
+vertical-align:top; 
+width:170px; 
+height:47px; 
+background:url(../images/logos/logofooter.png) no-repeat;
+background-size: 100%;
+}
+#footCol1{vertical-align:top; padding:2px 0px 0px 15px}
+#footCol2{vertical-align:top; padding:2px 0px 0px 15px}
+#footCol3{vertical-align:top; padding:2px 0px 0px 15px}
+#footCol4{vertical-align:top; padding:2px 0px 0px 15px}
+}
+@media screen and (min-width: 700px){
+
+#headLogo{
+width:250px;
+height:53px;
+background:url(../images/logos/starholidaylogo_377x80.jpg) no-repeat;
+background-size: 100%;
+}
+.nav-pills-custom > li {
+  float: left;
+  font-weight:bold;
+  font-size:12px;
+}
+.nav-pills-custom > li > a {
+  border-radius: 4px;
+  background-color: #60d9ec;
+  padding: 5px 10px 5px 10px;
+}
+.nav-pills-custom > li > a:hover {
+  border-radius: 4px;
+  background-color: #1792bc;
+  color:#ffffff;
+}
+.nav-pills-custom > li + li {
+  margin-left: 2px;
+}
+.nav-pills-custom > li.active > a,
+.nav-pills-custom > li.active > a:hover,
+.nav-pills-custom > li.active > a:focus {
+  color: #fff;
+  background-color: #1792bc;
+}
+.dropdown-toggle-custom:active, .open .dropdown-toggle-custom {background:#1792bc !important; color:#fff !important;}
+#dropdownContentLogin{padding: 10px; margin-top:6px; font-size:12px;}
+#rightContainer{padding: 0px;}
+.footer {
+  padding:0px;
+  color:#c4fbff;
+  background-color: #1592be;
+  border-top: 1px solid #e5e5e5;
+  font-size:10px;
+}
+#footerImageLogo{
+display:inline-block; 
+vertical-align:top; 
+width:220px; 
+height:60px; 
+background:url(../images/logos/logofooter.png) no-repeat;
+background-size: 100%;
+}
+#footCol1{vertical-align:top; padding:2px 0px 0px 15px}
+#footCol2{vertical-align:top; padding:2px 0px 0px 15px}
+#footCol3{vertical-align:top; padding:2px 0px 0px 15px}
+#footCol4{vertical-align:top; padding:2px 0px 0px 15px}
+}
+@media screen and (min-width: 1024px){
+
+#headLogo{
+width:377px;
+height:80px;
+background:url(../images/logos/starholidaylogo_377x80.jpg) no-repeat;
+background-size: 100%;
+}
+/* pulldown menu top arrow end */
+.nav-pills-custom > li {
+  float: left;
+  font-weight:bold;
+  font-size:16px;
+}
+.nav-pills-custom > li > a {
+  border-radius: 4px;
+  background-color: #60d9ec;
+  padding: 5px 15px 5px 15px;
+}
+.nav-pills-custom > li > a:hover {
+  border-radius: 4px;
+  background-color: #1792bc;
+  color:#ffffff;
+}
+.nav-pills-custom > li + li {
+  margin-left: 3px;
+}
+.nav-pills-custom > li.active > a,
+.nav-pills-custom > li.active > a:hover,
+.nav-pills-custom > li.active > a:focus {
+  color: #fff;
+  background-color: #1792bc;
+}
+.dropdown-toggle-custom:active, .open .dropdown-toggle-custom {background:#1792bc !important; color:#fff !important;}
+#dropdownContentLogin{padding: 10px; margin-top:6px; font-size:12px; width:200px;}
+
+#rightContainer{padding: 0px 0px 0px 30px;}
+
+.footer {
+  padding:0px;
+  color:#c4fbff;
+  background-color: #1592be;
+  border-top: 1px solid #e5e5e5;
+  font-size:12px;
+}
+#footerImageLogo{
+display:inline-block; 
+vertical-align:top; 
+width:314px; 
+height:86px; 
+background:url(../images/logos/logofooter.png) no-repeat;
+}
+#footCol1{vertical-align:top; padding:5px 0px 0px 10px}
+#footCol2{vertical-align:top; padding:5px 0px 0px 10px}
+#footCol3{vertical-align:top; padding:5px 0px 0px 10px}
+#footCol4{vertical-align:top; padding:5px 0px 0px 50px}
+}
+/* flight search table */
+.flights{
+	background: #60d9ec url(../../assets/images/icons/sort-icon.gif) no-repeat right 10px center; 
+	color: #015e80; border-left:1px #fff solid; border-right:1px #fff solid;cursor: pointer; width: 50px;
+}
+.depart, .arrival, .transit, .allowance, .price{
+	background: #60d9ec url(../../assets/images/icons/sort-icon.gif) no-repeat right 10px center; color: #015e80; border-left:1px #fff solid; border-right:1px #fff solid;cursor: pointer;
+}
+.action{
+	background: #60d9ec; color: #015e80; border-left:1px #fff solid; border-right:1px #fff solid;
+}

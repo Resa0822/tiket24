@@ -1,0 +1,1355 @@
+[10-Oct-2014 08:42:37 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] System.Web.Services.Protocols.SoapException: Server was unable to read request. ---> System.InvalidOperationException: There is an error in XML document (2, 1422). ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Xml.XmlConvert.ToInt32(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read21_LeadTravelerInfo(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read27_BookActivity_Request(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read43_BookActivity()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer20.Deserialize(XmlSerial in /home/tikeoid1/public_html/application/controllers/booking.php on line 236
+[10-Oct-2014 09:01:59 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 213
+[10-Oct-2014 09:01:59 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php:213
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(213): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(213): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 213
+[10-Oct-2014 09:04:53 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 213
+[10-Oct-2014 09:04:53 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php:213
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(213): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(213): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 213
+[10-Oct-2014 09:08:09 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:167
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 167
+[10-Oct-2014 09:24:19 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 216
+[10-Oct-2014 09:24:19 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php:216
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(216): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(216): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 216
+[10-Oct-2014 09:27:36 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 216
+[10-Oct-2014 09:27:36 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php:216
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(216): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(216): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 216
+[10-Oct-2014 09:28:33 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 216
+[10-Oct-2014 09:28:33 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php:216
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(216): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(216): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 216
+[10-Oct-2014 09:31:53 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 216
+[10-Oct-2014 09:31:53 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php:216
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(216): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(216): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 216
+[10-Oct-2014 09:33:03 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 216
+[10-Oct-2014 09:33:03 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'PickupPointID' property in /home/tikeoid1/public_html/application/controllers/booking.php:216
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(216): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(216): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 216
+[10-Oct-2014 09:37:03 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:167
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 167
+[10-Oct-2014 09:40:17 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:167
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 167
+[10-Oct-2014 09:44:34 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:167
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 167
+[10-Oct-2014 09:47:41 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:167
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 167
+[10-Oct-2014 09:50:30 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:167
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(167): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 167
+[10-Oct-2014 09:57:20 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:168
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(168): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(168): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 168
+[10-Oct-2014 10:03:22 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:168
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(168): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(168): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 168
+[10-Oct-2014 10:08:26 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:169
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 169
+[10-Oct-2014 10:14:34 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:169
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 169
+[10-Oct-2014 10:16:43 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:169
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 169
+[10-Oct-2014 10:19:51 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 221
+[10-Oct-2014 10:19:51 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:221
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(221): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(221): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 221
+[10-Oct-2014 10:21:24 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 221
+[10-Oct-2014 10:21:24 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:221
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(221): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(221): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 221
+[10-Oct-2014 10:26:27 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 221
+[10-Oct-2014 10:26:27 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:221
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(221): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(221): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 221
+[10-Oct-2014 10:29:52 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:169
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 169
+[10-Oct-2014 10:32:00 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:169
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 169
+[10-Oct-2014 10:34:51 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:169
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 169
+[10-Oct-2014 10:36:40 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:169
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 169
+[10-Oct-2014 10:39:15 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:169
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(169): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 169
+[10-Oct-2014 10:50:31 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:173
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 173
+[10-Oct-2014 10:53:40 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:173
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 173
+[10-Oct-2014 10:57:08 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:173
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 173
+[10-Oct-2014 10:58:58 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:173
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 173
+[10-Oct-2014 11:01:31 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:173
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 173
+[10-Oct-2014 11:06:59 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:173
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(173): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101008292...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 173
+[10-Oct-2014 11:13:15 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 232
+[10-Oct-2014 11:13:15 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:232
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(232): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(232): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 232
+[10-Oct-2014 11:14:39 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 232
+[10-Oct-2014 11:14:39 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:232
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(232): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(232): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 232
+[10-Oct-2014 11:16:05 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 228
+[10-Oct-2014 11:16:05 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:228
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(228): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(228): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 228
+[10-Oct-2014 11:34:04 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 246
+[10-Oct-2014 11:34:04 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:246
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(246): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(246): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 246
+[10-Oct-2014 11:35:17 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'TourID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 246
+[10-Oct-2014 11:35:17 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'TourID' property in /home/tikeoid1/public_html/application/controllers/booking.php:246
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(246): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(246): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 246
+[10-Oct-2014 12:46:11 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 246
+[10-Oct-2014 12:46:11 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:246
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(246): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(246): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 246
+[10-Oct-2014 12:47:31 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'TourID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 246
+[10-Oct-2014 12:47:31 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'TourID' property in /home/tikeoid1/public_html/application/controllers/booking.php:246
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(246): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(246): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 246
+[10-Oct-2014 12:54:43 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 228
+[10-Oct-2014 12:54:43 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:228
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(228): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(228): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 228
+[10-Oct-2014 13:43:19 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] System.Web.Services.Protocols.SoapException: Server was unable to read request. ---> System.InvalidOperationException: There is an error in XML document (2, 464). ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Xml.XmlConvert.ToInt32(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read27_BookActivity_Request(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read43_BookActivity()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer20.Deserialize(XmlSerializationReader reader)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserialization in /home/tikeoid1/public_html/application/controllers/booking.php on line 239
+[10-Oct-2014 13:54:59 Asia/Jakarta] PHP Fatal error:  Call to undefined method CI_DB_mysql_result::order_by() in /home/tikeoid1/public_html/application/controllers/booking.php on line 134
+[10-Oct-2014 14:28:22 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 247
+[10-Oct-2014 14:28:22 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:247
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(247): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(247): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 247
+[10-Oct-2014 14:30:16 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 246
+[10-Oct-2014 14:30:16 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:246
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(246): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(246): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101008292...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 246
+[10-Oct-2014 16:28:42 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] System.Web.Services.Protocols.SoapException: Server was unable to read request. ---> System.InvalidOperationException: There is an error in XML document (2, 1406). ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Xml.XmlConvert.ToInt32(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read21_LeadTravelerInfo(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read27_BookActivity_Request(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read43_BookActivity()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer20.Deserialize(XmlSerial in /home/tikeoid1/public_html/application/controllers/booking.php on line 318
+[10-Oct-2014 16:30:31 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] System.Web.Services.Protocols.SoapException: Server was unable to read request. ---> System.InvalidOperationException: There is an error in XML document (2, 1404). ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Xml.XmlConvert.ToInt32(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read21_LeadTravelerInfo(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read27_BookActivity_Request(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read43_BookActivity()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer20.Deserialize(XmlSerial in /home/tikeoid1/public_html/application/controllers/booking.php on line 318
+[13-Oct-2014 08:18:22 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[13-Oct-2014 08:18:22 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[13-Oct-2014 08:21:29 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[13-Oct-2014 08:21:29 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[13-Oct-2014 08:38:24 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:230
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(230): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(230): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101308224...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 230
+[13-Oct-2014 08:43:59 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'ActivityID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 319
+[13-Oct-2014 08:43:59 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'ActivityID' property in /home/tikeoid1/public_html/application/controllers/booking.php:319
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(319): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(319): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101308224...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 319
+[13-Oct-2014 08:48:06 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'ActivityID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 319
+[13-Oct-2014 08:48:06 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'ActivityID' property in /home/tikeoid1/public_html/application/controllers/booking.php:319
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(319): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(319): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TG2014101308224...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 319
+[13-Oct-2014 08:51:06 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:319
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(319): SoapClient->__call('BookActivity', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(319): SoapClient->BookActivity(Array)
+#3 [internal function]: Booking->validate('TG2014101308224...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 319
+[13-Oct-2014 08:57:25 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:319
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(319): SoapClient->__call('BookActivity', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(319): SoapClient->BookActivity(Array)
+#3 [internal function]: Booking->validate('TG2014101308224...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 319
+[13-Oct-2014 09:27:08 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:230
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(230): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(230): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101308224...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 230
+[13-Oct-2014 09:30:52 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:230
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(230): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(230): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101308224...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 230
+[13-Oct-2014 09:36:24 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2061
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2061): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2061): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->testbook()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2061
+[13-Oct-2014 09:39:36 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2064
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2064): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2064): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->testbook()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2064
+[13-Oct-2014 09:40:51 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2064
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2064): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2064): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->testbook()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2064
+[13-Oct-2014 09:42:07 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2064
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2064): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2064): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->testbook()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2064
+[13-Oct-2014 09:43:33 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2064
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2064): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2064): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->testbook()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2064
+[13-Oct-2014 09:55:50 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] System.Web.Services.Protocols.SoapException: Server was unable to read request. ---> System.InvalidOperationException: There is an error in XML document (2, 901). ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Xml.XmlConvert.ToInt32(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read19_PickUpDropOffPoint(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read27_BookActivity_Request(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read43_BookActivity()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer20.Deserialize(XmlSeria in /home/tikeoid1/public_html/application/controllers/booking.php on line 2197
+[13-Oct-2014 10:08:14 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2066
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2066): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2066): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->testbook()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2066
+[13-Oct-2014 10:15:14 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2066
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2066): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2066): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->testbook()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2066
+[13-Oct-2014 10:28:40 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'TourID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 2273
+[13-Oct-2014 10:28:40 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'TourID' property in /home/tikeoid1/public_html/application/controllers/booking.php:2273
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->testbook()
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2273
+[13-Oct-2014 10:31:22 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'TourID' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 2273
+[13-Oct-2014 10:31:22 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'TourID' property in /home/tikeoid1/public_html/application/controllers/booking.php:2273
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->testbook()
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2273
+[13-Oct-2014 10:32:53 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php on line 2273
+[13-Oct-2014 10:32:53 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'Title' property in /home/tikeoid1/public_html/application/controllers/booking.php:2273
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->testbook()
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2273
+[13-Oct-2014 14:55:12 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/tikeoid1/public_html/application/controllers/booking.php:230
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(230): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(230): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: Booking->validate('TG2014101314510...')
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 230
+[14-Oct-2014 10:46:54 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1101
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1101
+[18-Oct-2014 14:02:37 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:02:37 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:02:53 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:02:53 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:04:38 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:04:38 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:04:54 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:04:54 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:05:13 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:05:13 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:05:29 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:05:29 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:05:45 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:05:45 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:06:01 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 611
+[18-Oct-2014 14:06:01 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:611
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(611): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->bookingPackage()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 611
+[18-Oct-2014 14:17:56 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[18-Oct-2014 14:17:56 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[20-Oct-2014 02:10:11 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[20-Oct-2014 02:10:11 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[20-Oct-2014 08:25:04 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[20-Oct-2014 08:25:04 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[20-Oct-2014 08:25:32 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[20-Oct-2014 08:25:32 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[20-Oct-2014 09:28:53 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:28:53 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php:77
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/APIhandler.php(77): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: APIhandler->API_update_packages_country_city_tours()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:29:45 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:29:45 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php:77
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/APIhandler.php(77): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: APIhandler->API_update_packages_country_city_tours()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:30:26 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:30:26 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php:77
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/APIhandler.php(77): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: APIhandler->API_update_packages_country_city_tours()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:32:23 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:32:23 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php:77
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/APIhandler.php(77): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: APIhandler->API_update_packages_country_city_tours()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:34:35 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:34:35 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php:77
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/APIhandler.php(77): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: APIhandler->API_update_packages_country_city_tours()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:37:10 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[20-Oct-2014 09:37:10 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityWS.asmx?wsdl' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1067
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1067): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1067
+[20-Oct-2014 09:40:25 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:40:25 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php:77
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/APIhandler.php(77): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: APIhandler->API_update_packages_country_city_tours()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:41:20 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1101
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1101
+[20-Oct-2014 09:43:38 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/APIhandler.php:113
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/APIhandler.php(113): SoapClient->__call('SearchActivityB...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/APIhandler.php(113): SoapClient->SearchActivityByDestination(Array)
+#3 [internal function]: APIhandler->API_update_packages_country_city_tours()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 113
+[20-Oct-2014 09:52:36 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:52:36 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php:77
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/APIhandler.php(77): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: APIhandler->API_update_packages_country_city_tours()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:56:30 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/mycron_jobs_update_package_country_tours.php on line 4
+[20-Oct-2014 09:56:30 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/mycron_jobs_update_package_country_tours.php:4
+Stack trace:
+#0 /home/tikeoid1/public_html/mycron_jobs_update_package_country_tours.php(4): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 {main}
+  thrown in /home/tikeoid1/public_html/mycron_jobs_update_package_country_tours.php on line 4
+[20-Oct-2014 09:58:11 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 09:58:11 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/PartnerPackageWS/ActivityLookUp.asmx?WSDL' : Start tag expected, '<' not found
+ in /home/tikeoid1/public_html/application/controllers/APIhandler.php:77
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/APIhandler.php(77): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: APIhandler->API_update_packages_country_city_tours()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/APIhandler.php on line 77
+[20-Oct-2014 11:50:43 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1101
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1101
+[22-Oct-2014 13:08:55 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1101
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1101
+[24-Oct-2014 08:47:03 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1101
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1101
+[24-Oct-2014 08:49:27 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:645
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(645): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(645): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->bookingPackage()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 645
+[24-Oct-2014 14:47:25 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$userRoleID' (T_VARIABLE) in /home/tikeoid1/public_html/application/views/detail.php on line 454
+[24-Oct-2014 16:34:19 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ''</div>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tikeoid1/public_html/application/views/admin/view_transaction.php on line 180
+[27-Oct-2014 11:59:49 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 76 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[27-Oct-2014 12:01:59 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1101
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1101
+[28-Oct-2014 14:44:25 Asia/Jakarta] PHP Fatal error:  Call to undefined function vardump() in /home/tikeoid1/public_html/application/views/detail.php on line 347
+[28-Oct-2014 14:53:01 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1101
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1101
+[28-Oct-2014 16:18:14 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/tikeoid1/public_html/application/views/detail.php on line 526
+[28-Oct-2014 16:19:54 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/tikeoid1/public_html/application/views/detail.php on line 526
+[29-Oct-2014 10:48:11 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 32 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[29-Oct-2014 14:19:40 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 68 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[30-Oct-2014 08:47:54 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 68 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[30-Oct-2014 08:48:26 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 68 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[30-Oct-2014 08:48:38 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 32 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[30-Oct-2014 08:48:58 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 32 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[30-Oct-2014 10:37:37 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 76 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[30-Oct-2014 10:38:04 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 77 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[30-Oct-2014 10:40:08 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 77 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[30-Oct-2014 10:42:35 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 77 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[30-Oct-2014 10:47:33 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 77 bytes) in /home/tikeoid1/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[30-Oct-2014 10:48:12 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/tikeoid1/public_html/application/models/search_model.php on line 185
+[30-Oct-2014 11:03:02 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1101
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1101): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1101
+[31-Oct-2014 14:05:43 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1103
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1103): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1103): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1103
+[31-Oct-2014 14:14:55 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1103
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1103): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1103): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1103
+[31-Oct-2014 14:16:57 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1103
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1103): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1103): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1103
+[31-Oct-2014 14:28:29 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1103
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1103): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1103): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1103
+[02-Dec-2014 15:24:19 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2273
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->__call('BookActivity', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->BookActivity(Array)
+#3 [internal function]: Booking->processing()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2273
+[02-Dec-2014 15:31:11 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1107
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1107
+[02-Dec-2014 15:32:36 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1107
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1107
+[02-Dec-2014 16:37:58 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1107
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1107
+[02-Dec-2014 16:49:07 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2273
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->__call('BookActivity', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->BookActivity(Array)
+#3 [internal function]: Booking->processing()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2273
+[02-Dec-2014 16:50:15 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2273
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->__call('BookActivity', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->BookActivity(Array)
+#3 [internal function]: Booking->processing()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2273
+[02-Dec-2014 16:52:05 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/booking.php:2273
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->__call('BookActivity', Array)
+#2 /home/tikeoid1/public_html/application/controllers/booking.php(2273): SoapClient->BookActivity(Array)
+#3 [internal function]: Booking->processing()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 2273
+[02-Dec-2014 17:16:16 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1107
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1107
+[02-Dec-2014 17:17:38 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1107
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1107
+[02-Dec-2014 17:21:35 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1107
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1107): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1107
+[04-Dec-2014 09:19:29 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://example.com' : Extra content at the end of the document
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1070
+[04-Dec-2014 09:19:29 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://example.com' : Extra content at the end of the document
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1070
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1070): SoapClient->SoapClient('http://example....', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1070
+[04-Dec-2014 09:55:31 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/dsdsd/ActivityWS.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1073
+[04-Dec-2014 09:55:31 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/dsdsd/ActivityWS.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1079
+[04-Dec-2014 09:55:31 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/dsdsd/ActivityWS.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1079
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1079): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1079
+[04-Dec-2014 10:00:40 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/dsdsd/ActivityWS.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1073
+[04-Dec-2014 10:01:56 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/dsdsd/ActivityWS.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1073
+[04-Dec-2014 10:01:56 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/dsdsd/ActivityWS.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1087
+[04-Dec-2014 10:01:56 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/dsdsd/ActivityWS.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1087
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1087): SoapClient->SoapClient('http://ws.asiat...', Array)
+#1 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#2 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#4 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1087
+[04-Dec-2014 10:07:32 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1416
+[04-Dec-2014 10:14:43 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] Function ("SearchActivityPrice") is not a valid method for this service in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1116
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1116): SoapClient->__call('SearchActivityP...', Array)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1116): SoapClient->SearchActivityPrice(Array)
+#2 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1116
+[04-Dec-2014 10:16:38 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/fgfdg/ActivityLookUp.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1028
+[04-Dec-2014 10:16:51 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/fgfdg/ActivityLookUp.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1028
+[04-Dec-2014 10:18:57 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/fgfdg/ActivityLookUp.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1028
+[04-Dec-2014 10:20:27 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] Function ("SearchActivityPrice") is not a valid method for this service in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1116
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1116): SoapClient->__call('SearchActivityP...', Array)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1116): SoapClient->SearchActivityPrice(Array)
+#2 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1116
+[04-Dec-2014 10:23:13 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] Function ("SearchActivityPrice") is not a valid method for this service in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1116
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1116): SoapClient->__call('SearchActivityP...', Array)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1116): SoapClient->SearchActivityPrice(Array)
+#2 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1116
+[04-Dec-2014 10:25:37 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [Client] Function ("SearchActivityPrice") is not a valid method for this service in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1116
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1116): SoapClient->__call('SearchActivityP...', Array)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1116): SoapClient->SearchActivityPrice(Array)
+#2 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1116
+[04-Dec-2014 10:29:07 Asia/Jakarta] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://ws.asiatravel.net/sdsd/ActivityWS.asmx?wsdl' : Premature end of data in tag html line 1
+ in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1028
+[06-Jan-2015 17:18:33 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php:1116
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://ws.asiat...', 'http://tempuri....', 1, 0)
+#1 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1116): SoapClient->__call('SearchActivityP...', Array)
+#2 /home/tikeoid1/public_html/application/controllers/ajaxHandler.php(1116): SoapClient->SearchActivityPrice(Array)
+#3 [internal function]: ajaxHandler->displayCheckprice_booking_form()
+#4 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#6 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1116
+[08-Jan-2015 14:33:44 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE), expecting ',' or ';' in /home/tikeoid1/public_html/application/models/packages_model.php on line 239
+[09-Jan-2015 16:37:19 Asia/Jakarta] PHP Fatal error:  Cannot use [] for reading in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1117
+[09-Jan-2015 16:59:28 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1117
+[12-Jan-2015 10:30:04 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'PartnerID' (T_STRING), expecting ')' in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 167
+[12-Jan-2015 10:55:40 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 1779). ---> Instance validation error: '' is not a valid value for Salutation. in /home/tikeoid1/public_html/application/controllers/booking.php:322
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(322): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(322): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TM2015011210123...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 322
+[12-Jan-2015 10:55:59 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 1779). ---> Instance validation error: '' is not a valid value for Salutation. in /home/tikeoid1/public_html/application/controllers/booking.php:322
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(322): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(322): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TM2015011210123...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 322
+[12-Jan-2015 10:56:43 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 1779). ---> Instance validation error: '' is not a valid value for Salutation. in /home/tikeoid1/public_html/application/controllers/booking.php:322
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(322): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(322): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TM2015011210123...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 322
+[12-Jan-2015 11:13:38 Asia/Jakarta] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 1779). ---> Instance validation error: '' is not a valid value for Salutation. in /home/tikeoid1/public_html/application/controllers/booking.php:322
+Stack trace:
+#0 /home/tikeoid1/public_html/application/controllers/booking.php(322): SoapClient->__call('BookActivity', Array)
+#1 /home/tikeoid1/public_html/application/controllers/booking.php(322): SoapClient->BookActivity(Array)
+#2 [internal function]: Booking->validate('TM2015011210123...')
+#3 /home/tikeoid1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/tikeoid1/public_html/index.php(202): require_once('/home/tikeoid1/...')
+#5 {main}
+  thrown in /home/tikeoid1/public_html/application/controllers/booking.php on line 322
+[12-Jan-2015 14:49:54 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 4577 in /home/tikeoid1/public_html/application/controllers/booking.php on line 4577
+[12-Jan-2015 14:49:54 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/tikeoid1/public_html/application/controllers/booking.php on line 4577
+[12-Jan-2015 16:18:44 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 4577 in /home/tikeoid1/public_html/application/controllers/booking.php on line 4577
+[12-Jan-2015 16:18:44 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/tikeoid1/public_html/application/controllers/booking.php on line 4577
+[12-Jan-2015 17:01:56 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 4577 in /home/tikeoid1/public_html/application/controllers/booking.php on line 4577
+[12-Jan-2015 17:01:56 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/tikeoid1/public_html/application/controllers/booking.php on line 4577
+[12-Jan-2015 17:05:11 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 4577 in /home/tikeoid1/public_html/application/controllers/booking.php on line 4577
+[12-Jan-2015 17:05:11 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/tikeoid1/public_html/application/controllers/booking.php on line 4577
+[15-Jan-2015 14:58:15 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/tikeoid1/public_html/application/controllers/asiatravelAPI.php on line 193
+[15-Jan-2015 16:01:18 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';' in /home/tikeoid1/public_html/application/controllers/asiatravelAPI.php on line 225
+[15-Jan-2015 16:02:20 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';' in /home/tikeoid1/public_html/application/controllers/asiatravelAPI.php on line 225
+[27-Jan-2015 16:00:05 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';' in /home/tikeoid1/public_html/application/models/homes.php on line 37
+[27-Jan-2015 16:01:09 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';' in /home/tikeoid1/public_html/application/models/homes.php on line 37
+[27-Jan-2015 16:01:23 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';' in /home/tikeoid1/public_html/application/models/homes.php on line 37
+[28-Jan-2015 09:31:01 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/tikeoid1/public_html/application/views/admin/edit_margin.php on line 20
+[28-Jan-2015 09:41:59 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/tikeoid1/public_html/application/views/admin/edit_margin.php on line 21
+[28-Jan-2015 09:47:53 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/tikeoid1/public_html/application/views/admin/edit_margin.php on line 22
+[28-Jan-2015 09:50:59 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/tikeoid1/public_html/application/views/admin/edit_margin.php on line 22
+[28-Jan-2015 09:51:48 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/tikeoid1/public_html/application/views/admin/edit_margin.php on line 22
+[29-Jan-2015 10:28:17 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/tikeoid1/public_html/application/controllers/packages.php on line 399
+[29-Jan-2015 10:29:23 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/tikeoid1/public_html/application/controllers/packages.php on line 399
+[29-Jan-2015 11:47:17 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tikeoid1/public_html/application/models/packages_model.php on line 64
+[29-Jan-2015 11:47:53 Asia/Jakarta] PHP Fatal error:  Call to a member function join() on a non-object in /home/tikeoid1/public_html/application/models/packages_model.php on line 67
+[02-Feb-2015 16:17:47 Asia/Jakarta] PHP Fatal error:  Call to undefined method Home::uri_segment() in /home/tikeoid1/public_html/application/controllers/home.php on line 224
+[02-Feb-2015 16:19:53 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'refresh' (T_STRING) in /home/tikeoid1/public_html/application/controllers/home.php on line 230
+[02-Feb-2015 16:20:37 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'redirect' (T_STRING), expecting ',' or ';' in /home/tikeoid1/public_html/application/controllers/home.php on line 230
+[02-Feb-2015 16:23:42 Asia/Jakarta] PHP Fatal error:  Call to undefined function alert() in /home/tikeoid1/public_html/application/views/attractions.php on line 2
+[03-Feb-2015 08:29:28 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/tikeoid1/public_html/application/controllers/home.php on line 229
+[03-Feb-2015 09:04:42 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ']', expecting ')' in /home/tikeoid1/public_html/application/views/menu.php on line 26
+[03-Feb-2015 14:02:04 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/tikeoid1/public_html/application/controllers/home.php on line 244
+[03-Feb-2015 14:22:41 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/tikeoid1/public_html/application/controllers/home.php on line 227
+[03-Feb-2015 17:06:31 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/tikeoid1/public_html/application/views/menu.php on line 12
+[03-Feb-2015 17:06:56 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/tikeoid1/public_html/application/views/menu.php on line 12
+[03-Feb-2015 17:07:14 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/tikeoid1/public_html/application/views/menu.php on line 12
+[03-Feb-2015 17:07:55 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/tikeoid1/public_html/application/views/menu.php on line 12
+[03-Feb-2015 17:08:19 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/tikeoid1/public_html/application/views/menu.php on line 12
+[03-Feb-2015 17:10:50 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/tikeoid1/public_html/application/views/detail.php on line 5
+[05-Feb-2015 09:17:57 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/tikeoid1/public_html/application/views/menu.php on line 62
+[06-Feb-2015 08:59:19 Asia/Jakarta] PHP Fatal error:  Cannot use [] for reading in /home/tikeoid1/public_html/application/views/menu.php on line 42
+[06-Feb-2015 09:32:20 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '<' in /home/tikeoid1/public_html/application/views/detail.php on line 492
+[06-Feb-2015 09:43:06 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ',' in /home/tikeoid1/public_html/application/views/detail.php on line 491
+[06-Feb-2015 10:14:37 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/tikeoid1/public_html/application/views/detail.php on line 3
+[06-Feb-2015 10:14:51 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/tikeoid1/public_html/application/views/detail.php on line 3
+[06-Feb-2015 10:14:59 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/tikeoid1/public_html/application/views/detail.php on line 3
+[06-Feb-2015 10:17:09 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/tikeoid1/public_html/application/views/detail.php on line 3
+[06-Feb-2015 10:58:58 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/tikeoid1/public_html/application/controllers/home.php on line 103
+[06-Feb-2015 11:09:39 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tikeoid1/public_html/application/views/detail.php on line 512
+[09-Feb-2015 15:31:30 Asia/Jakarta] PHP Fatal error:  Can't use function return value in write context in /home/tikeoid1/public_html/application/models/packages_country_model.php on line 92
+[11-Feb-2015 10:14:14 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$salePriceAdult' (T_VARIABLE) in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1259
+[11-Feb-2015 10:15:12 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$totalAdultSalePrice' (T_VARIABLE) in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1260
+[11-Feb-2015 10:20:09 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'or' (T_LOGICAL_OR) in /home/tikeoid1/public_html/application/controllers/ajaxHandler.php on line 1123
+[12-Feb-2015 09:39:50 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home/tikeoid1/public_html/application/views/search_result.php on line 370
+[16-Feb-2015 15:45:39 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/tikeoid1/public_html/application/controllers/booking.php on line 1440
+[16-Feb-2015 15:46:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/tikeoid1/public_html/application/controllers/booking.php on line 1475
+[16-Feb-2015 16:49:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_dropdown() in /home/tikeoid1/public_html/application/views/menu.php on line 62
+[18-Feb-2015 02:41:55 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_dropdown() in /home/tikeoid1/public_html/application/views/menu.php on line 62
+[19-Feb-2015 00:06:12 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_dropdown() in /home/tikeoid1/public_html/application/views/menu.php on line 62
+[21-Feb-2015 00:44:54 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_dropdown() in /home/tikeoid1/public_html/application/views/menu.php on line 62
+[22-Feb-2015 14:38:36 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_dropdown() in /home/tikeoid1/public_html/application/views/menu.php on line 62
+[24-Feb-2015 16:27:00 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_dropdown() in /home/tikeoid1/public_html/application/views/menu.php on line 62
+[25-Feb-2015 11:28:18 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_dropdown() in /home/tikeoid1/public_html/application/views/menu.php on line 62

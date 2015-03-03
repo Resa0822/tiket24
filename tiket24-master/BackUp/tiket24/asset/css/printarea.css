@@ -1,0 +1,31 @@
+img {width:130px;}
+#hdrCol1{display:inline-block;text-align:left;}
+#hdrCol2{display:inline-block; width: 300px;}
+#hdrCol3{display:inline-block;text-align:right;}
+.rounded{
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+border:1px #000 solid;
+}
+#r1c1{display:inline-block; width: 500px;vertical-align:top;font-weight:bold; font-size:20px;}
+#r1c2{display:inline-block;width: 150px;}
+#r2c1{display:inline-block; width: 200px;}
+#r2c2{display:inline-block;width: 200px;vertical-align:top;}
+#r3c1{display:inline-block;width: 200px;vertical-align:top; }
+
+#pnlHdrTrHghLght{background: url('../asset/images/printArea-black-background.JPG') repeat-x;color:#ffffff; font-size: 14px;font-weight:bold;}
+#pnlBdyTrHghLght{font-size:9px;}
+#pnlHdrImprtntNts{background #000000: b;color:#ffffff; font-size: 14px; font-weight:bold;}
+#pnlBdyImprtntNts{font-size:9px;}
+
+#adult{font-size:18px; font-weight: bold; padding-right: 10px;}
+#child{font-size:18px; font-weight: bold; padding-right: 10px;}
+#totPax{font-size:18px; font-weight: bold; padding-right: 10px; border-top: 2px #000 dashed}
+
+.panel-default > .panel-heading {
+  background: url('asset/images/printArea-black-background.JPG') repeat-x;
+}
+#vntp_r1c1{display:inline-block; position:relative; width:520px; text-align: center; font-weight: bold;}
+#vntp_r1c2{display:inline-block; position:relative; width:150px;}
+#tblNonThemePark{font-size:10px;}

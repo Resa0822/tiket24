@@ -1,0 +1,740 @@
+@charset "utf-8";
+/* CSS Document */
+
+.table{
+/* 	border: 1px solid #e3e3e3;
+	background-color: #f2f2f2; */
+    width:783px;
+	margin-left: 120px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+ .table th {
+	padding: 5px;
+	color: #ffffff;
+	font-weight:bold;
+}
+
+.table td {
+	padding: 5px;
+	color: #333;
+}
+/**#table thead 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: .2em 0 .2em .5em;
+	text-align: left;
+*/
+.table th {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;bold
+	text-shadow: white 1px 1px 1px;
+
+}
+.table td {
+	line-height: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	border-top: none;
+	border-bottom: 3px dotted #105c8d;
+/* 	border-top: 1px solid #fff;
+	background-color:#fff; */
+}
+.table td:hover {
+	background-color: #ff7f00;
+	color: #fff;
+}
+.table th a:link {
+	text-decoration:none;
+	color: #ffffff;
+}
+
+.table td a:link {
+	text-decoration:none;
+	color: #333;
+}
+.table td a:hover {
+	text-decoration:none;
+	color: #fff;
+}
+.table a{
+	top: 0px;
+	font-size: 14px;
+}
+.table img{
+	display: block;
+	/* margin: 5px 10px; */
+	width: 220px;
+	height: 120px;
+}
+.table #table_list{
+	width: auto;
+	min-height: 250px;
+	padding-left: 0px;
+	margin: 5px;
+	float:left;
+	height:240px;
+}
+.table #table_list #table_image{
+	display: block;
+	margin: 5px 10px;
+	width: 220px;
+}
+.table  #table_list #table_image span{
+	display: inline; float: left; position: relative;
+	width: 198px;
+	padding: 10px;
+	margin-top: -50px;
+	background: -moz-linear-gradient(center bottom , rgb(229, 56, 50) 0%, white 25%, white 50%, white 75%, rgb(229, 56, 50) 100%) repeat scroll 0% 0% transparent;
+
+
+
+background: -webkit-linear-gradient(red, white, white, white, red); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(red, white, white, white, red); /* For Opera 11.1 to 12.0 */
+	background: linear-gradient(red, white, white, white, red); /* Standard syntax (must be last) */
+
+
+	/* background-color: #000000;
+	color: #FFFFFF; */
+	font-size: 7px;
+	text-align: center;
+}
+.table #table_list table{
+	width: 220px;
+	margin-left: 10px;
+}
+
+/*-----------Content-----------*/
+#hotel-content-info
+{
+	/* width:80%; */
+	width:auto;
+	height: auto;
+	margin: 20px;
+	/* padding:5px; */
+	/* margin:5px 10%; */
+}
+#grid.k-grid.k-widget.k-secondary.k-reorderable table {
+	width: 100%;
+	font-size: 14px;
+}
+
+#hotel-content-description
+{
+	margin-top:10px;
+	font-size:12px;
+	line-height: 18px;	
+	text-align:justify;
+}
+
+#hotel-content-description h2 
+{
+	font-size:16px;
+	line-height:5px;
+
+}
+#hotel-content-description form 
+{
+	margin: 0 20px 20px;
+
+}
+.editable-input select,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],
+input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],
+input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"]
+{
+	width: 300px;
+	height: 30px;
+}
+.editable-input textarea
+{
+	width: 300px;
+	height: 100px;
+}
+
+#hotel-content-value
+{
+	margin-top:0px;	
+	font-size:12px;
+	line-height: 18px;	
+} 
+
+#hotel-content-value .overview_description_row
+{
+	margin-top:5px;
+}
+#hotel-content-description .attraction_list
+{
+	padding-left: 100px;
+}
+
+/*---------box--------------*/
+.stylebox
+{
+	background-image: url('/common/media/images/global/bgr-box-trans.png');
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: left top;
+}
+
+/*----------form-------------*/
+.fieldset {
+ /*    background: none repeat scroll 0% 0% #FCFCFC; */
+    border: 1px solid #D5D5D5;
+    margin: 0px 5%;
+    padding: 5%;
+    border-radius: 4px;
+    position: relative;
+}
+.legend {
+    font-size: 12px;
+    font-family: Arial,Helvetica,sans-serif;
+
+}
+.legend {
+    background: -moz-linear-gradient(center top , #FFF, #E2E2E2) repeat scroll 0% 0% transparent;
+    border: 1px solid #D5D5D5;
+    color: #0158C2;
+    font-weight: bold;
+    padding: 7px 20px;
+    margin: 0px 0px 10px;
+}
+.form {
+    width: 100%;
+    margin: auto;
+    display: table;
+}
+.form .form-row {
+	margin:0px auto;
+    display: table-row;
+}
+* {
+   /* margin: 0px; */
+    padding: 0px;
+}
+.img {
+	height: auto;
+	max-width: 200px;
+	vertical-align: middle;
+	border: 0pt none;
+}
+
+.sub2 {
+    width: 190px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 2px;
+    height: 160px;
+}
+.sub2 img {
+    width: 189px;
+	height: 100px;
+	padding: 3px;
+}
+
+/*---------------------------MEDIA QUERY----------------------------------*/
+@media only screen and (max-width: 1024px) {
+    /* Desktop, Tablet & Mobile. */
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.table{
+/* 	border: 1px solid #e3e3e3;
+	background-color: #f2f2f2; */
+    width:728px;
+	margin-left: -20px;
+	padding: 20px;
+}
+.table a{
+	top: 0px;
+	font-size: 11px;
+}
+.table img{
+	display: block;
+	/* margin: 5px 10px; */
+	width: 150px;
+	height: 80px;
+}
+.table #table_list{
+	width: auto;
+	min-height: 150px;
+	padding-left: 0px;
+	margin: 5px;
+	float:left;
+	height: 210px;
+}
+.table #table_list #table_image{
+	display: block;
+	margin: 5px 10px;
+	width: 150px;
+}
+.table  #table_list #table_image span{
+	display: inline; float: left; position: relative;
+	width: 140px;
+	padding: 5px;
+	margin-top: -30px;
+	background: -moz-linear-gradient(center bottom , rgb(229, 56, 50) 0%, white 25%, white 50%, white 75%, rgb(229, 56, 50) 100%) repeat scroll 0% 0% transparent;
+	/* background-color: #000000;
+	color: #FFFFFF; */
+	font-size: 7px;
+	text-align: center;
+}
+.table #table_list table{
+	width: 150px;
+	margin-left: 10px;
+}
+#grid.k-grid.k-widget.k-secondary.k-reorderable table {
+	font-size: 12px;
+}
+#hotel-content-description
+{
+	margin-top:10px;
+	font-size:10px;
+	line-height: 18px;	
+	text-align:justify;
+}
+#hotel-content-description img
+{
+	width: 150px;
+}
+#hotel-content-description .attraction_list
+{
+	padding-left: 60px;
+}
+#hotel-content-description h2 
+{
+	font-size:12px;
+	line-height:25px;
+
+}
+#hotel-content-description form
+{
+	margin-top: 50px;
+	font-size: 12px;
+
+}
+#hotel-content-description table
+{
+	margin-top: 20px;
+	font-size: 12px;
+
+}
+.editable-input select,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],
+input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],
+input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"]
+{
+	width: 200px;
+	height: 22px;
+	font-size: 10px;
+}
+.editable-input textarea
+{
+	width: 200px;
+	height: 80px;	
+	font-size: 10px;
+}
+.img {
+	height: auto;
+	max-width: 150px;
+	vertical-align: middle;
+	border: 0pt none;
+}
+.sub2 {
+    width: 150px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0px;
+    height: 120px;
+}
+.sub2 img {
+    width: 149px;
+	height: 80px;
+	padding: 1px;
+}
+.highlighted #image {
+	width: 80px;
+	height: 40px;
+} 
+}
+
+@media only screen and (max-width: 767px) {
+.table{
+/* 	border: 1px solid #e3e3e3;
+	background-color: #f2f2f2; */
+    width:600px;
+	margin-left: 60px;
+}
+.table a{
+	top: 0px;
+	font-size: 11px;
+}
+.table img{
+	display: block;
+	/* margin: 5px 10px; */
+	width: 150px;
+	height: 80px;
+}
+.table #table_list{
+	width: auto;
+	min-height: 150px;
+	padding-left: 0px;
+	margin: 5px;
+	float:left;
+	height: 210px;
+}
+.table #table_list #table_image{
+	display: block;
+	margin: 5px 10px;
+	width: 150px;
+}
+.table  #table_list #table_image span{
+	display: inline; float: left; position: relative;
+	width: 140px;
+	padding: 5px;
+	margin-top: -30px;
+	background: -moz-linear-gradient(center bottom , rgb(229, 56, 50) 0%, white 25%, white 50%, white 75%, rgb(229, 56, 50) 100%) repeat scroll 0% 0% transparent;
+	/* background-color: #000000;
+	color: #FFFFFF; */
+	font-size: 7px;
+	text-align: center;
+}
+.table #table_list table{
+	width: 150px;
+	margin-left: 10px;
+}
+#grid.k-grid.k-widget.k-secondary.k-reorderable table {
+	font-size: 12px;
+}
+#hotel-content-description
+{
+	margin-top:10px;
+	font-size:10px;
+	line-height: 18px;	
+	text-align:justify;
+}
+#hotel-content-description img
+{
+	width: 150px;
+}
+#hotel-content-description .attraction_list
+{
+	padding-left: 30px;
+}
+#hotel-content-description h2 
+{
+	font-size:12px;
+	line-height:25px;
+
+}
+#hotel-content-description form
+{
+	margin-top: 50px;
+	font-size: 12px;
+
+}
+#hotel-content-description table
+{
+	margin-top: 20px;
+	font-size: 12px;
+
+}
+.fieldset {
+    margin: 0px 5% 0 0;
+}
+.editable-input select,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],
+input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],
+input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"]
+{
+	width: 200px;
+	height: 22px;
+	font-size: 10px;
+}
+.editable-input textarea
+{
+	width: 200px;
+	height: 80px;	
+	font-size: 10px;
+}
+.img {
+	height: auto;
+	max-width: 150px;
+	vertical-align: middle;
+	border: 0pt none;
+}
+.sub2 {
+    width: 150px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0px;
+    height: 120px;
+}
+.sub2 img {
+    width: 149px;
+	height: 80px;
+	padding: 1px;
+}
+.highlighted #image {
+	width: 80px;
+	height: 40px;
+} 
+}
+@media only screen and (min-wdth: 480px) and (max-width: 767px) {
+.table{
+/* 	border: 1px solid #e3e3e3;
+	background-color: #f2f2f2; */
+    width:600px;
+	margin-left: 20px;
+}
+.table a{
+	top: 0px;
+	font-size: 11px;
+}
+.table img{
+	display: block;
+	/* margin: 5px 10px; */
+	width: 150px;
+	height: 80px;
+}
+.table #table_list{
+	width: auto;
+	min-height: 150px;
+	padding-left: 0px;
+	margin: 5px;
+	float:left;
+	height: 200px;
+}
+.table #table_list #table_image{
+	display: block;
+	margin: 5px 10px;
+	width: 150px;
+}
+.table  #table_list #table_image span{
+	display: inline; float: left; position: relative;
+	width: 140px;
+	padding: 5px;
+	margin-top: -30px;
+	background: -moz-linear-gradient(center bottom , rgb(229, 56, 50) 0%, white 25%, white 50%, white 75%, rgb(229, 56, 50) 100%) repeat scroll 0% 0% transparent;
+	/* background-color: #000000;
+	color: #FFFFFF; */
+	font-size: 7px;
+	text-align: center;
+}
+.table #table_list table{
+	width: 150px;
+	margin-left: 10px;
+}
+#grid.k-grid.k-widget.k-secondary.k-reorderable table {
+	font-size: 12px;
+}
+#hotel-content-description
+{
+	margin-top:10px;
+	font-size:10px;
+	line-height: 18px;	
+	text-align:justify;
+}
+#hotel-content-description img
+{
+	width: 150px;
+}
+#hotel-content-description .attraction_list
+{
+	padding-left: 60px;
+}
+#hotel-content-description h2 
+{
+	font-size:12px;
+	line-height:25px;
+
+}
+#hotel-content-description form
+{
+	margin-top: 50px;
+	font-size: 12px;
+
+}
+#hotel-content-description table
+{
+	margin-top: 20px;
+	font-size: 12px;
+
+}
+.fieldset {
+    margin: 0px 5% 0 0;
+}
+.editable-input select,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],
+input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],
+input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"]
+{
+	width: 200px;
+	height: 22px;
+	font-size: 10px;
+}
+.editable-input textarea
+{
+	width: 200px;
+	height: 80px;	
+	font-size: 10px;
+}
+.img {
+	height: auto;
+	max-width: 150px;
+	vertical-align: middle;
+	border: 0pt none;
+}
+.sub2 {
+    width: 150px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0px;
+    height: 120px;
+}
+.sub2 img {
+    width: 149px;
+	height: 80px;
+	padding: 1px;
+}
+.highlighted #image {
+	width: 80px;
+	height: 40px;
+} 
+}
+@media only screen and (max-width: 479px) {
+.table{
+/* 	border: 1px solid #e3e3e3;
+	background-color: #f2f2f2; */
+    width:360px;
+	margin-left: 0px;
+}
+.table a{
+	top: 0px;
+	font-size: 9px;
+}
+.table img{
+	display: block;
+	/* margin: 5px 10px; */
+	width: 90px;
+	height: 50px;
+}
+.table #table_list{
+	width: auto;
+	min-height: 90px;
+	padding-left: 0px;
+	margin: 5px;
+	float:left;
+	height: 180px;
+}
+.table #table_list #table_image{
+	display: block;
+	margin: 5px 10px;
+	width: 90px;
+}
+.table  #table_list #table_image span{
+	display: inline; float: left; position: relative;
+	width: 85px;
+	padding: 2px;
+	margin-top: -25px;
+	background: -moz-linear-gradient(center bottom , rgb(229, 56, 50) 0%, white 25%, white 50%, white 75%, rgb(229, 56, 50) 100%) repeat scroll 0% 0% transparent;
+	/* background-color: #000000;
+	color: #FFFFFF; */
+	font-size: 7px;
+	text-align: center;
+}
+.table #table_list table{
+	width: 90px;
+	margin-left: 10px;
+}
+#grid.k-grid.k-widget.k-secondary.k-reorderable table {
+	font-size: 10px;
+}
+#hotel-content-description
+{
+	margin-top:10px;
+	font-size:8px;
+	line-height: 18px;	
+	text-align:justify;
+}
+#hotel-content-description img
+{
+	width: 120px;
+}
+#hotel-content-description .attraction_list
+{
+	padding-left: 0px;
+}
+#hotel-content-description h2 
+{
+	font-size:10px;
+	line-height:15px;
+
+}
+#hotel-content-description form
+{
+	margin-top: 80px;
+	font-size: 10px;
+
+}
+#hotel-content-description table
+{
+	margin-top: 20px;
+	font-size: 10px;
+
+}
+.form .form-row {
+	font-size: 12px;
+}
+.form .form-row select {
+	width: 120px;
+height: 20px;
+line-height: 20px;
+font-size: 8px;
+}
+.legend {
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+.editable-input select,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],
+input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],
+input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"]
+{
+	width: 100px;
+	height: 22px;
+	font-size: 10px;
+}
+.editable-input textarea
+{
+	width: 100px;
+	height: 80px;	
+	font-size: 10px;
+}
+.highlighted #image {
+	width: 50px;
+	height: 30px;
+}
+.img {
+	height: auto;
+	max-width: 120px;
+	vertical-align: middle;
+	border: 0pt none;
+}
+.sub2 {
+    width: 120px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0px;
+    height: 90px;
+}
+.sub2 img {
+    width: 119px;
+	height: 50px;
+	padding: 1px;
+}
+}
