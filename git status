@@ -1,0 +1,55 @@
+[33mcommit c68c642a87fa78792e4e66a145e177bf58bb08ce[m
+Author: Tarsidin <tarsidin@gmail.com>
+Date:   Thu Mar 5 15:56:53 2015 +0700
+
+    nambahin text di tarsidin.txt
+
+[33mcommit 264c6faa91d88134d10ed1ae7cec45b94abf5068[m
+Author: Tarsidin <tarsidin@gmail.com>
+Date:   Thu Mar 5 15:52:44 2015 +0700
+
+    namabahin file tarsidin txt
+
+[33mcommit 8a2d185f3061e378702af502cdffead7830d51c8[m
+Merge: 6c2ca25 2039194
+Author: Tarsidin <tarsidin@gmail.com>
+Date:   Tue Mar 3 15:04:20 2015 +0700
+
+    Merge branch 'master' of https://github.com/resa0822/tiket24
+
+[33mcommit 6c2ca25fe25b70db9707905b6dc8c05b92d6df21[m
+Author: Tarsidin <tarsidin@gmail.com>
+Date:   Tue Mar 3 14:57:15 2015 +0700
+
+    nambahin file tasr.txt di folder tiket24
+
+[33mcommit ac1bd9978d694a20605c18c7cc41923e720e230f[m
+Author: Tarsidin <tarsidin@gmail.com>
+Date:   Tue Mar 3 14:49:47 2015 +0700
+
+    updatetan tars..
+
+[33mcommit 20391942e1328facea0c8dde26a8ce63b9c00520[m
+Author: Resa0822 <resa@rcelectronic.co.id>
+Date:   Mon Mar 2 17:00:21 2015 +0700
+
+    Update menu.php
+
+[33mcommit 3969186053e81257443cda5d2b4737888a9512dd[m
+Merge: ab757c0 0f7fa75
+Author: unknown <resa@rcelectronic.co.id>
+Date:   Mon Mar 2 14:54:01 2015 +0700
+
+    Merge branch 'master' of https://github.com/Resa0822/tiket24
+
+[33mcommit 0f7fa75830a18b0ddd5e8e0fc1006766f8349e8c[m
+Author: Resa0822 <resa@rcelectronic.co.id>
+Date:   Mon Mar 2 14:51:23 2015 +0700
+
+    Initial commit
+
+[33mcommit ab757c0a6145a1a8b5b84cf61ca60d77cfb68a42[m
+Author: unknown <resa@rcelectronic.co.id>
+Date:   Mon Mar 2 14:50:03 2015 +0700
+
+    pertama masuk github
